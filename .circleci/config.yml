@@ -44,6 +44,9 @@ workflows:
     jobs:
       - build-and-test
       - dice-hola
+        - filters:
+          - branches:
+              - only: /^circleci-project-setup.*/
 
 commands:
   say-hello:
