@@ -44,7 +44,7 @@ workflows:
     jobs:
       - build-and-test
       - dice-hola:
-        filters:
+          filters:
           branches:
               only: /^master.*/
 
