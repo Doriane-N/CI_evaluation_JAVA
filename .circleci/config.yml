@@ -18,6 +18,7 @@ jobs:
     steps:
       # Checkout the code as the first step.
       - checkout
+      - say-hello
       # Use mvn clean and package as the standard maven build phase
       - run:
           name: Build
