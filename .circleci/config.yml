@@ -34,3 +34,11 @@ workflows:
     # Inside the workflow, you define the jobs you want to run.
     jobs:
       - build-and-test
+
+commands:
+  say-hello:
+    description: echo hello
+    steps:
+      - run:
+          name: says hello
+          command: echo "Hello"

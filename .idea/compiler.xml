@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="evaluation" />
+        <module name="CI_evaluation_JAVA" />
       </profile>
     </annotationProcessing>
   </component>
