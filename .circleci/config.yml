@@ -46,7 +46,7 @@ workflows:
       - dice-hola:
         filters:
           branches:
-              only: /^circleci-project-setup.*/
+              only: /^master.*/
 
 commands:
   say-hello:
