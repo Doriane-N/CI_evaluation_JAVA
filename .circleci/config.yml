@@ -33,7 +33,7 @@ jobs:
         - image: cimg/openjdk:11.0
       steps:
         - run:
-            name: "Dice Hola!"
+            name: dice hola
             command: echo "Hola!"
 
 # Invoke jobs via workflows
