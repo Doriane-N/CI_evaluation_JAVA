@@ -45,8 +45,8 @@ workflows:
       - build-and-test
       - dice-hola:
           filters:
-          branches:
-              only: /^master.*/
+            branches:
+                only: /^master.*/
 
 commands:
   say-hello:
